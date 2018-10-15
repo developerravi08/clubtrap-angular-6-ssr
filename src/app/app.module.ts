@@ -9,7 +9,9 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule,
+    // BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'clubtrap' }),
+
     AppRoutingModule
   ],
   providers: [],
